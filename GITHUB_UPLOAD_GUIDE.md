@@ -11,7 +11,7 @@ git push -u origin main
 원격 저장소는 아래 주소로 설정되어 있습니다.
 
 ```text
-https://github.com/wonyteria/29sfilm_cor.git
+https://github.com/hyphen-festival29/29sfilm-corporate-site.git
 ```
 
 ## GitHub Pages 설정
