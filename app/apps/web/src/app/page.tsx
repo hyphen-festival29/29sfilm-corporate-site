@@ -401,19 +401,68 @@ export default function HomePage() {
       <main className="login-shell">
         <section className="login-brand">
           <div className="brand-box login-brand-box">
-            <img alt="29초영화제 심볼" className="brand-symbol" src="/brand/29film-symbol.jpg" />
+            <img alt="29초영화제 심볼" className="brand-symbol" src="/brand/29film-symbol-seo.webp" width={72} height={72} />
             <div>
-              <img alt="29초영화제" className="login-main-logo" src="/brand/29film-logo-black.png" />
+              <img alt="29초영화제" className="login-main-logo" src="/brand/29film-logo-black-seo.webp" width={720} height={256} loading="lazy" />
           <small>꿈프 · 2026 29프렌즈</small>
             </div>
           </div>
-          <img alt="한국경제신문" className="login-sub-logo" src="/brand/hankyung-logo-color.png" />
+          <img alt="한국경제신문" className="login-sub-logo" src="/brand/hankyung-logo-color-seo.webp" width={162} height={26} loading="lazy" />
           <LoginBrandStory />
           <div className="login-highlights">
             <span>꿈프 운영</span>
             <span>29프렌즈 활동</span>
             <span>출품·홍보 현황</span>
           </div>
+          <section className="seo-answer-section" aria-labelledby="seo-answer-title">
+            <p className="eyebrow">29 WITH ANSWER</p>
+            <h2 id="seo-answer-title">29 WITH는 29초영화제 협력 프로그램의 신청·출품·활동 관리를 한곳에 모으는 운영 포털입니다.</h2>
+            <p>
+              29 WITH는 영상 꿈나무 양성 프로젝트(꿈프)에 참여하는 학교 선생님과 2026 29프렌즈 서포터즈가 각자의 진행 상태를 확인하도록 만든 웹 포털입니다.
+              선생님은 모집 중인 행사 신청, 학생 작품과 출품 확인, 혜택 지급, 활동확인서와 심사표 문서를 한 화면에서 관리할 수 있습니다.
+              29프렌즈 참여자는 영화제 출품과 홍보 활동을 기록하고, 운영자는 활동 링크와 경고·공지·회원 상태를 검토합니다.
+            </p>
+            <p>
+              이 포털의 목적은 영화제 공식 사이트를 대체하는 것이 아니라, 외부 협력자와 운영팀 사이의 반복 확인 업무를 줄이는 것입니다.
+              29초영화제와 29역숏폼왕 같은 공개 접점은 공식 사이트에서 안내하고, 29 WITH는 신청자 DB, 선정 상태, 출품 매칭, 쿠폰·혜택, 이메일 공지, 문서 발급처럼 로그인 후 필요한 운영 데이터를 담당합니다.
+              따라서 공개 홈은 프로그램의 역할과 로그인 대상을 설명하고, 개인정보가 포함되는 관리 화면은 로그인 후에만 접근하도록 분리되어 있습니다.
+            </p>
+            <p>
+              영상 꿈나무 양성 프로젝트에서는 학교 단위의 신청과 작품 제출 일정이 중요합니다.
+              담당 교사는 학교명, 담당자 정보, 예상 출품 수, 제출 일정, 활용 계획을 등록하고, 운영팀은 신청 상태와 출품 매칭 여부를 확인합니다.
+              선정 후에는 혜택 지급, 쿠폰 사용, 활동확인서 발급, 심사표 확인처럼 행사 종료까지 이어지는 후속 업무가 생기기 때문에 하나의 포털에서 상태를 추적하는 것이 필요합니다.
+              29 WITH는 이 흐름을 신청 전, 모집 중, 선정, 출품 확인, 최종 검토, 문서 발급 단계로 나누어 보여 주도록 설계되었습니다.
+            </p>
+            <p>
+              2026 29프렌즈 영역은 영화제와 숏폼 콘텐츠를 알리는 서포터즈 활동에 초점을 둡니다.
+              참여자는 행사 참여 내역과 홍보 링크를 기록하고, 운영자는 제출된 링크를 검토해 승인, 보완 요청, 경고 상태를 관리합니다.
+              이렇게 선생님 포털과 프렌즈 포털을 나누면 공개 행사 정보, 학교 협력 정보, 개인 활동 기록을 섞지 않고 각각의 목적에 맞게 확인할 수 있습니다.
+            </p>
+            <p>
+              공개 검색 사용자가 이 페이지에서 확인해야 할 핵심은 간단합니다.
+              29 WITH는 29초영화제 관련 협력자용 로그인 포털이며, 영화제 일반 안내와 출품은 공식 29초영화제 또는 29역숏폼왕 사이트에서 확인하고, 이미 초대받은 선생님·프렌즈·운영자는 이곳에서 계정을 만들어 업무를 이어가면 됩니다.
+            </p>
+            <p className="authorByline" rel="author" data-author="29 WITH Operations Team">
+              Author: 29 WITH Operations Team · Reviewed for festival operations, teacher support, and 29 Friends activity workflows.
+            </p>
+            <ul className="seo-answer-list">
+              <li><strong>선생님 포털</strong><span>꿈프 신청, 출품 확인, 혜택, 활동확인서, 심사표 확인을 지원합니다.</span></li>
+              <li><strong>29프렌즈 포털</strong><span>서포터즈 활동 링크, 참여 행사, 공지, 경고 이력을 관리합니다.</span></li>
+              <li><strong>운영 관리자</strong><span>행사 생성, 신청 선정, 출품 매칭, 메일 공지, 회원 상태를 검토합니다.</span></li>
+            </ul>
+            <table className="seo-answer-table">
+              <caption>29 WITH 요약 정보</caption>
+              <tbody>
+                <tr><th scope="row">대상</th><td>학교 선생님, 29프렌즈, 영화제 운영 관리자</td></tr>
+                <tr><th scope="row">주요 프로그램</th><td>영상 꿈나무 양성 프로젝트, 2026 29프렌즈, 29초영화제·29역숏폼왕 협력 운영</td></tr>
+                <tr><th scope="row">주요 기능</th><td>신청 접수, 선정 상태, 출품 매칭, 활동 기록, 혜택, 문서, 공지 메일</td></tr>
+              </tbody>
+            </table>
+            <nav className="seo-proof-links" aria-label="29 WITH reference links">
+              <a href="https://www.29sfilm.com" rel="noreferrer" target="_blank">29초영화제 공식 사이트</a>
+              <a href="https://www.29sking.com" rel="noreferrer" target="_blank">29역숏폼왕 공식 사이트</a>
+            </nav>
+          </section>
         </section>
         <section className="login-panel-wrap">
           {message ? <div className="toast-inline">{message}</div> : null}
@@ -436,9 +485,9 @@ export default function HomePage() {
     <main className={`app-shell ${mode === "teacher" ? "teacher-shell" : "admin-shell"}`}>
       <aside className="side-nav">
         <div className="brand-box">
-          <img alt="29초영화제 심볼" className="brand-symbol" src="/brand/29film-symbol.jpg" />
+          <img alt="29초영화제 심볼" className="brand-symbol" src="/brand/29film-symbol-seo.webp" width={72} height={72} />
           <div>
-            <img alt="29초영화제" className="side-logo" src="/brand/29film-logo-white.png" />
+            <img alt="29초영화제" className="side-logo" src="/brand/29film-logo-white-seo.webp" width={720} height={256} />
             <small>{mode === "teacher" ? (isFriendsMember ? "29프렌즈 포털" : "선생님 포털") : "운영 관리자"}</small>
           </div>
         </div>
@@ -545,11 +594,11 @@ function BrandPortalLinks({ compact = false }: { compact?: boolean }) {
   return (
     <div className={`brand-portal-links ${compact ? "compact" : ""}`}>
       <a aria-label="29초영화제 공식 사이트 바로가기" href="https://www.29sfilm.com" rel="noreferrer" target="_blank">
-        <img alt="29초영화제" src="/brand/29film-logo-white.png" />
+        <img alt="29초영화제" src="/brand/29film-logo-white-seo.webp" width={720} height={256} loading={compact ? "lazy" : "eager"} />
         <span>공식 사이트</span>
       </a>
       <a aria-label="29역숏폼왕 공식 사이트 바로가기" href="https://www.29sking.com" rel="noreferrer" target="_blank">
-        <img alt="29역숏폼왕" src="/brand/29shortform-logo.png" />
+        <img alt="29역숏폼왕" src="/brand/29shortform-logo-seo.webp" width={270} height={180} loading="lazy" />
         <span>공식 사이트</span>
       </a>
     </div>

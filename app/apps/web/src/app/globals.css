@@ -167,6 +167,127 @@ button {
   font-weight: 900;
 }
 
+.seo-answer-section {
+  max-width: 760px;
+  margin-top: 32px;
+  border: 1px solid #d9e2ef;
+  border-radius: 28px;
+  background: rgb(255 255 255 / 78%);
+  box-shadow: 0 24px 80px rgb(15 23 42 / 8%);
+  padding: 28px;
+}
+
+.seo-answer-section h2 {
+  margin: 8px 0 14px;
+  color: #111827;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.22;
+}
+
+.seo-answer-section p {
+  max-width: none;
+  margin: 14px 0 0;
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.72;
+}
+
+.seo-answer-section .eyebrow {
+  margin: 0;
+  color: #e11d2e;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+
+.seo-answer-section .authorByline {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.seo-answer-list {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.seo-answer-list li {
+  display: grid;
+  gap: 5px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #fff;
+  padding: 14px 16px;
+}
+
+.seo-answer-list strong {
+  color: #111827;
+}
+
+.seo-answer-list span {
+  color: #52637a;
+  line-height: 1.58;
+}
+
+.seo-answer-table {
+  width: 100%;
+  margin-top: 18px;
+  border-collapse: collapse;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.seo-answer-table caption {
+  margin-bottom: 8px;
+  color: #111827;
+  text-align: left;
+  font-weight: 900;
+}
+
+.seo-answer-table th,
+.seo-answer-table td {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.58;
+}
+
+.seo-answer-table tr:last-child th,
+.seo-answer-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.seo-answer-table th {
+  width: 116px;
+  color: #111827;
+}
+
+.seo-proof-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.seo-proof-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  border: 1px solid #d9e2ef;
+  border-radius: 999px;
+  background: #fff;
+  padding: 0 13px;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 900;
+}
+
 .login-panel-wrap {
   display: grid;
   align-content: center;
